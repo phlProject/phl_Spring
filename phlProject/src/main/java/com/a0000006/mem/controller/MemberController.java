@@ -137,7 +137,7 @@ public class MemberController {
 		int id_Chk = memberService.idDupChk(commandMap.getMap());
 		String result = "";
 		String resultMsg = "";
-		System.out.println(66666);
+		System.out.println(345345);
 		System.out.println(12312);
 		System.out.println(66666);
 		if(id_Chk == 0){
