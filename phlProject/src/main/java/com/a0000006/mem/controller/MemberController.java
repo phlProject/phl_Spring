@@ -75,7 +75,7 @@ public class MemberController {
         ModelAndView mv = new ModelAndView("/a0000006/mainIndex");
         
         commandMap.put("BSNS_CODE", session.getAttribute("BSNS_CODE"));
-        
+        System.out.println(commandMap.get("mem_id"));
         /* 로그인(ID,PW CHECK) */
         List<Map<String,Object>> idPwChk = memberService.idPwCheck(commandMap.getMap());
         
@@ -91,6 +91,7 @@ public class MemberController {
         	//mv.addObject("loginInfo", loginInfo.get(0));
         	session.setAttribute("loginInfo", loginInfo.get(0));
         	session.setAttribute("session_id", loginInfo.get(0).get("MEM_ID"));
+        	System.out.println("123");
         }else{
         	resultValue = "FAIL";
         }
