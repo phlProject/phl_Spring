@@ -138,7 +138,7 @@ public class MemberController {
 		String result = "";
 		String resultMsg = "";
 		System.out.println(4324234);
-		System.out.println(123123);
+		System.out.println(5555555);
 		if(id_Chk == 0){
 			result = "success";
 			resultMsg = "사용가능한 아이디 입니다.";
