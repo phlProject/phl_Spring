@@ -138,6 +138,7 @@ public class MemberController {
 		String result = "";
 		String resultMsg = "";
 		System.out.println(44412);
+		System.out.println(12312);
 		System.out.println(66666);
 		if(id_Chk == 0){
 			result = "success";
