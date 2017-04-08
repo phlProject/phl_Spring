@@ -137,7 +137,7 @@ public class MemberController {
 		int id_Chk = memberService.idDupChk(commandMap.getMap());
 		String result = "";
 		String resultMsg = "";
-		System.out.println(41231234);
+		System.out.println(4324234);
 		if(id_Chk == 0){
 			result = "success";
 			resultMsg = "사용가능한 아이디 입니다.";
