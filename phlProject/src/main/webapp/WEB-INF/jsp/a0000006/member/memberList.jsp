@@ -14,6 +14,8 @@
 		$("#mainIndex").on("click", function(e){
 			e.preventDefault();
 			fn_mainIndex();
+			
+			  -
 		});
 	});
 
@@ -24,6 +26,7 @@
 	}
 </script>
 <body>
+	master
 	<table border="1">
 		<c:forEach items="${list }" var="row">
 			<tr>
