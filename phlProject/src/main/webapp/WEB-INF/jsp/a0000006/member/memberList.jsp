@@ -24,6 +24,8 @@
 	}
 </script>
 <body>
+
+	hofix
 	<table border="1">
 		<c:forEach items="${list }" var="row">
 			<tr>
