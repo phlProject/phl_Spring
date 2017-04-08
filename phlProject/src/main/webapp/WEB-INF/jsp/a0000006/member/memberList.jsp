@@ -14,6 +14,7 @@
 		$("#mainIndex").on("click", function(e){
 			e.preventDefault();
 			fn_mainIndex();
+<<<<<<< HEAD
 		});
 	});
 
@@ -42,3 +43,41 @@
 	<a href="#this" id="mainIndex">메인</a>
 </body>
 </html>
+=======
+			
+			  
+		});
+	});
+
+	function fn_mainIndex(){
+		var comSubmit = new ComSubmit();
+		comSubmit.setUrl("<c:url value='/a0000006/mainIndex.do'/>");
+		comSubmit.submit();
+	}
+</script>
+<body>
+
+
+	hofix
+
+	master
+
+	<table border="1">
+		<c:forEach items="${list }" var="row">
+			<tr>
+               <td>${row.BSNS_CODE }</td>
+               <td>${row.MEM_ID }</td>
+               <td>${row.MEM_PW }</td>
+               <td>${row.MEM_NM }</td>
+               <td>${row.MEM_EMAIL }</td>
+               <td>${row.MEM_NICKNM }</td>
+               <td>${row.MEM_GRADE }</td>
+               <td>${row.MEM_PHONE }</td>
+               <td>${row.USE_YN }</td>
+            </tr>
+		</c:forEach>	
+	</table>
+	<a href="#this" id="mainIndex">메인</a>
+</body>
+</html>
+>>>>>>> branch 'master' of https://github.com/phlProject/phl_Spring.git
