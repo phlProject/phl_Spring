@@ -15,7 +15,7 @@
 			e.preventDefault();
 			fn_mainIndex();
 			
-			  -
+			  
 		});
 	});
 
